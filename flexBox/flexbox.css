@@ -1,0 +1,29 @@
+        .flex-container {
+            height: 400px;
+            /*flex блок| inline-flex строка*/
+            display: flex;
+            /*row строка| row-reverse| column столбец| column-reverse*/
+            flex-direction: row;
+            /*no-wrap | wrap перенос елементов на следующую строку | wrap-reverse*/
+            flex-wrap: wrap;
+            /*flex-start | space-between растаяние между елементами | space-around*/
+            justify-content: space-around;
+            /*выравнивание елементов по поперечной оси*/
+            align-items: flex-start;
+            align-content: flex-end;
+        }
+        
+        .flex-element {
+            /*изменения позици елемента*/
+            order: 0;
+            /*изменение ширины елемента относительно других*/
+            flex-grow: 1;
+            /*равномерное сжимание елементов*/
+            flex-shrink: 1;
+            /*начальное значение ширины елемента*/
+            flex-basis: 200px;
+            /*краткая запись flex: grow shrink basis*/
+            flex: 1 1 200px;
+            /*выравнивание елементов по поперечной оси индивидуальное*/
+            align-self: center;
+        }
