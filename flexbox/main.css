@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+.flex-element:first-child {
+    background-color: red;
+}
+
+.flex-element:nth-child(2) {
+    background-color: blue;
+}
+
+.flex-element:nth-child(3) {
+    background-color: yellow;
+}
+
+.flex-element:nth-child(4) {
+    background-color: green;
+}
+
+.flex-element:nth-child(5) {
+    background-color: orange;
+}
+
+.flex-element:last-child {
+    background-color: pink;
+}
+
+.flex-element {
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid grey;
+    text-align: center;
+    font-size: 30px;
+    // flex-grow: 1;
+}
+
+.flex-container {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    // justify-content: space-around;
+}
